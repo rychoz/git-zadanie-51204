@@ -1,31 +1,34 @@
 .square{
-    width: 320px;
-    height: 750px;
+    width: auto;
+    height: auto;
     background-color: #f5f5dd;
     align-content: center;
     padding-left: 175px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     }
+
+.sq1, .sq2, .sq3, .sq4{
+    width: 150px;
+    height: 150px;
+    }
+
+.sq2, .sq3, .sq4{
+    margin-top: 10px;
+    }
+
 .sq1{
-    width: 150px;
-    height: 150px;
     background-color: rgb(0 0 0 / 100%);
-    margin-top: 20px;
     }
+
 .sq2{
-    width: 150px;
-    height: 150px;
     background-color: rgb(0 0 0 / 75%);
-    margin-top: 10px;
     }
+
 .sq3{
-    width: 150px;
-    height: 150px;
     background-color: rgb(0 0 0 / 50%);
-    margin-top: 10px;
     }
+
 .sq4{
-    width: 150px;
-    height: 150px;
     background-color: rgb(0 0 0 / 25%);
-    margin-top: 10px;
     }
